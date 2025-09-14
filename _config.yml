@@ -40,8 +40,8 @@ socials:
        - Milano, M.
        - Kaufmann, M.
        - Ho, N.
-     year: 2025
-     proceedings: IEEE RO-MAN 2025
+    year: 2025
+    proceedings: IEEE RO-MAN 2025
   - title: SpiCAE: Spiking Contrastive Learning and Autoencoder for Anomaly Detection
     authors:
       - Sagaran, E.
