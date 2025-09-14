@@ -7,8 +7,8 @@ layout: default
 Hello, I am Elijah! I am an undergraduate researcher at California State University, Northridge. My research topic interests are the following: AI, ML, Digital Twins, and Human-Computer Interaction. I aspire to go into academia and become a researcher. 
 
 ## Contact Me
-- **Personal Email:** {{ site.author["personal email"] }}
-- **University Email:** {{ site.author["university email"] }}
+- **Personal Email:** [{{ site.author['personal email'] }}](mailto:{{ site.author['personal email'] }})
+- **University Email:** [{{ site.author['university email'] }}](mailto:{{ site.author['university email'] }})
 - **GitHub:** <a href="{{ site.socials["GitHub"] }}"> GitHub Profile </a>
 - **LinkedIn:** <a href="{{ site.socials["LinkedIn"]}}"> LinkedIn Profile </a>
 
