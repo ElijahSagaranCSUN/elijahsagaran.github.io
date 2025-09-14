@@ -22,49 +22,49 @@ nav:
 
 socials:
   - name: GitHub
-    url:  https://github.com/ElijahSagaranCSUN
+    url: https://github.com/ElijahSagaranCSUN
   - name: LinkedIn
     url: https://www.linkedin.com/in/elijahsagaran/
 
- papers:
-   - title: Performance Trust in High-Stakes Heterogeneous Human-Machine Teams: Insights from Interviews with Team CoSTAR and Mars 2020
-     authors:
-       - Kim, B.
-       - Jannone, J.
-       - Lopez Rodriguez, Z.
-       - Huerta, R.
-       - Sagaran, E.
-       - Ochoa, N.
-       - Shubina, D.
-       - Morrell, B.
-       - Milano, M.
-       - Kaufmann, M.
-       - Ho, N.
+papers:
+  - title: "Performance Trust in High-Stakes Heterogeneous Human-Machine Teams: Insights from Interviews with Team CoSTAR and Mars 2020"
+    authors:
+      - Kim, B.
+      - Jannone, J.
+      - Lopez Rodriguez, Z.
+      - Huerta, R.
+      - Sagaran, E.
+      - Ochoa, N.
+      - Shubina, D.
+      - Morrell, B.
+      - Milano, M.
+      - Kaufmann, M.
+      - Ho, N.
     year: 2025
-    proceedings: IEEE RO-MAN 2025
-  - title: SpiCAE: Spiking Contrastive Learning and Autoencoder for Anomaly Detection
+    proceedings: "IEEE RO-MAN 2025"
+  - title: "SpiCAE: Spiking Contrastive Learning and Autoencoder for Anomaly Detection"
     authors:
       - Sagaran, E.
       - Spier, J.
       - Hasan, R.
     year: 2025
-    proceedings: IEEE IEMCON 2025. Accepted, to appear November 2025
-  - title: Learnable Adaptive Feature Masking with Multichannel Representation for Network Intrusion Detection
+    proceedings: "IEEE IEMCON 2025. Accepted, to appear November 2025"
+  - title: "Learnable Adaptive Feature Masking with Multichannel Representation for Network Intrusion Detection"
     authors:
       - Spier, J.
       - Sagaran, E.
       - Hasan, R.
     year: 2025
-    proceedings: IEEE GESS 2025. Under-review
-  - title: Going Beyond Majority Vote: Composite-Aware Soft Voting in Random Forest
+    proceedings: "IEEE GESS 2025. Under-review"
+  - title: "Going Beyond Majority Vote: Composite-Aware Soft Voting in Random Forest"
     authors:
       - Laurie, C.
       - Ha, M.
       - Sagaran, E.
       - Hasan, R.
     year: 2025
-    proceedings: ICPRAM 2026. Under-review
-  - title: A Comparative Analysis of Object Detection Models for Plant Leaf Counting under Overlapping Foliage Conditions
+    proceedings: "ICPRAM 2026. Under-review"
+  - title: "A Comparative Analysis of Object Detection Models for Plant Leaf Counting under Overlapping Foliage Conditions"
     authors:
       - Sagaran, E.
       - Ha, M.
@@ -76,8 +76,8 @@ socials:
       - Liu, L.
       - Jiang, X.
     year: 2025
-    proceedings: IEEE ICDM REU Symposium
-  - title: Robotic Journaling: A Method for Analyzing Trust in Real-World Human-Machine Teams
+    proceedings: "IEEE ICDM REU Symposium"
+  - title: "Robotic Journaling: A Method for Analyzing Trust in Real-World Human-Machine Teams"
     authors:
       - Ho, N.
       - Morrell, B.
@@ -93,31 +93,31 @@ socials:
       - Lopez-Rodriguez, Z.
 
 projects:
-  - title: GARCH.X 
-    authors: 
+  - title: "GARCH.X"
+    authors:
       - Zambom, A.
       - Sagaran, E.
-    description: Estimating and variable selection on Exogenous Covariates for GARCH-X models
+    description: "Estimating and variable selection on Exogenous Covariates for GARCH-X models"
     year: 2025
-    link: https://cran.r-project.org/web/packages/GARCH.X/index.html
+    link: "https://cran.r-project.org/web/packages/GARCH.X/index.html"
 
 oral presentations:
-  - title: Extending Theoretical Trust Modeling: A Field Study of Heterogeneous Human-Machine Teams (HMT) Operating in R3 Contexts
-    event: 2025 Trust & Influence Program Review, Rome, New York
-  - title: Performance Trust in High-Stakes Heterogeneous Human-Machine Team: Insights from Interviews with Team CoSTAR and Mars 2020
-    event: IEEE RO-MAN 2025, Eindhoven, Netherlands
+  - title: "Extending Theoretical Trust Modeling: A Field Study of Heterogeneous Human-Machine Teams (HMT) Operating in R3 Contexts"
+    event: "2025 Trust & Influence Program Review, Rome, New York"
+  - title: "Performance Trust in High-Stakes Heterogeneous Human-Machine Team: Insights from Interviews with Team CoSTAR and Mars 2020"
+    event: "IEEE RO-MAN 2025, Eindhoven, Netherlands"
 
 poster presentations:
-  - title: Modeling Trust in Heterogeneous R3 Human-Machine Teams
-    event: Human Factors and Ergonomics Society (HFES) Annual Conferene, Long Beach, California
-  - title: A Comparative Analysis of Object Detection Models for Accurate Leaf Counting in Overlapping Foliage Conditions
-    event: SoCAL REU Symposium, Claremont, California
+  - title: "Modeling Trust in Heterogeneous R3 Human-Machine Teams"
+    event: "Human Factors and Ergonomics Society (HFES) Annual Conferene, Long Beach, California"
+  - title: "A Comparative Analysis of Object Detection Models for Accurate Leaf Counting in Overlapping Foliage Conditions"
+    event: "SoCAL REU Symposium, Claremont, California"
 
 skills:
-  - language: Python, R, C++, Java, C, Racket, JavaScript, PROLOG
-    libraies: PyTorch, Scikit-Learn, Pandas, Numpy, Seaborn, MatplotLib, snnTorch, Tensorflow, PyGame
-    others: LaTex, GIT, Microsoft SQL Server, MySQL
-    machine learning: Regression, Clustering, Classification, Convolutional Neural Networks, Spiking Neural Networks, Time Series Analysis
+  - language: "Python, R, C++, Java, C, Racket, JavaScript, PROLOG"
+    libraries: "PyTorch, Scikit-Learn, Pandas, Numpy, Seaborn, Matplotlib, snnTorch, TensorFlow, Pygame"
+    others: "LaTeX, Git, Microsoft SQL Server, MySQL"
+    machine learning: "Regression, Clustering, Classification, Convolutional Neural Networks, Spiking Neural Networks, Time Series Analysis"
 
 plugins:
   - jekyll-sitemap
