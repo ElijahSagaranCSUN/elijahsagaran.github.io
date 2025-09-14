@@ -21,10 +21,8 @@ nav:
     href: /research-experience
 
 socials:
-  - name: GitHub
-    url: https://github.com/ElijahSagaranCSUN
-  - name: LinkedIn
-    url: https://www.linkedin.com/in/elijahsagaran/
+  GitHub: https://github.com/ElijahSagaranCSUN
+  LinkedIn: https://www.linkedin.com/in/elijahsagaran/
 
 papers:
   - title: "Performance Trust in High-Stakes Heterogeneous Human-Machine Teams: Insights from Interviews with Team CoSTAR and Mars 2020"
