@@ -5,6 +5,9 @@ title: Home
 ## **About**
 Hello, I am Elijah! I am an undergraduate researcher at California State University, Northridge. My research topic interests are the following: AI, ML, Digital Twins, and Human-Computer Interaction. I aspire to go into academia and become a researcher. 
 
+## Contact Me
+{{site.author}}
+
 ## Research Papers
 <ul class="papers">
   {% assign me_norm = site.me | strip | downcase | remove: "." %}
@@ -46,3 +49,19 @@ Hello, I am Elijah! I am an undergraduate researcher at California State Univers
     </li>
 </ul>
 
+## Oral Presentations
+{% for p in site.oral_presentations %}
+- **[{{p.title}}]** — {{ p.event}}
+{% endfor %}
+
+## Poster Presentations
+{% for p in site.poster_presentations %}
+- **[{{p.title}}]** — {{p.event}}
+{% endfor %}
+
+## Skills
+{% for p in site.skills %}
+- Language: {{p.language}}
+- Libraries: {{p.libraries}}
+- Others: {{p.others}}
+- Machine Learning: {{p.machine_learning}}
