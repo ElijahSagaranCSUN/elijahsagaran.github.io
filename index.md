@@ -1,12 +1,15 @@
 ---
 title: Home
+layout: default
 ---
 
 ## **About**
 Hello, I am Elijah! I am an undergraduate researcher at California State University, Northridge. My research topic interests are the following: AI, ML, Digital Twins, and Human-Computer Interaction. I aspire to go into academia and become a researcher. 
 
 ## Contact Me
-{{site.author}}
+- {{ site.author.name }}
+- {{ site.author["personal email"] }}
+- {{ site.author["university email"] }}
 
 ## Research Papers
 <ul class="papers">
@@ -24,44 +27,45 @@ Hello, I am Elijah! I am an undergraduate researcher at California State Univers
         {% endif %}
         {% unless forloop.last %}, {% endunless %}
       {% endfor %}
-      {{ p.proceedings }} 
+      {% if p.proceedings %} — {{ p.proceedings }}{% endif %}
     </li>
   {% endfor %}
 </ul>
 
 ## Projects
 <ul class="projects">
-  {% assign m_norm = site.me | strip | downcase | remove: "." %}
-  {% for p in site.papers %}
+  {% assign me_norm = site.me | strip | downcase | remove: "." %}
+  {% for p in site.projects %}
     <li>
-      <strong>{{p.title}}</strong> {{ p.year }}) —
-      {% for a in p.authors %}
-        {% assign a_clean = a | strip %}
-        {% assign a_norm = a_clean | downcase | remove: "." %}
-        {% if a_norm = me_norm %}
-          <strong>{{a_clean}}</strong>
-        {% else %}
-          {{ a_clean }}
-        {% endif %}
-        {% unless forloop.last %}, {% endunless %}
-      {% endfor %}
-      {{p.link}}
+      <strong>{{ p.title }}</strong> ({{ p.year }}) —
+      {% if p.authors %}
+        {% for a in p.authors %}
+          {% assign a_clean = a | strip %}
+          {% assign a_norm  = a_clean | downcase | remove: "." %}
+          {% if a_norm == me_norm %}<strong>{{ a_clean }}</strong>{% else %}{{ a_clean }}{% endif %}
+          {% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+        —
+      {% endif %}
+      {{ p.description }} {% if p.link %}(<a href="{{ p.link }}">link</a>){% endif %}
     </li>
+  {% endfor %}
 </ul>
 
 ## Oral Presentations
-{% for p in site.oral_presentations %}
-- **[{{p.title}}]** — {{ p.event}}
+{% for p in site["oral presentations"] %}
+- **{{ p.title }}** — {{ p.event }}
 {% endfor %}
 
 ## Poster Presentations
-{% for p in site.poster_presentations %}
-- **[{{p.title}}]** — {{p.event}}
+{% for p in site["poster presentations"] %}
+- **{{ p.title }}** — {{ p.event }}
 {% endfor %}
 
 ## Skills
-{% for p in site.skills %}
-- Language: {{p.language}}
-- Libraries: {{p.libraries}}
-- Others: {{p.others}}
-- Machine Learning: {{p.machine_learning}}
+{% for s in site.skills %}
+- **Language:** {{ s.language }}
+- **Libraries:** {{ s.libraries }}
+- **Others:** {{ s.others }}
+- **Machine Learning:** {{ s["machine learning"] }}
+{% endfor %}
