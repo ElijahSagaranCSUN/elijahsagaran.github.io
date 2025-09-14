@@ -21,6 +21,28 @@ Hello, I am Elijah! I am an undergraduate researcher at California State Univers
         {% endif %}
         {% unless forloop.last %}, {% endunless %}
       {% endfor %}
+      {{ p.proceedings }} 
     </li>
   {% endfor %}
 </ul>
+
+## Projects
+<ul class="projects">
+  {% assign m_norm = site.me | strip | downcase | remove: "." %}
+  {% for p in site.papers %}
+    <li>
+      <strong>{{p.title}}</strong> {{ p.year }}) —
+      {% for a in p.authors %}
+        {% assign a_clean = a | strip %}
+        {% assign a_norm = a_clean | downcase | remove: "." %}
+        {% if a_norm = me_norm %}
+          <strong>{{a_clean}}</strong>
+        {% else %}
+          {{ a_clean }}
+        {% endif %}
+        {% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+      {{p.link}}
+    </li>
+</ul>
+
