@@ -103,13 +103,13 @@ projects:
     year: 2025
     link: "https://cran.r-project.org/web/packages/GARCH.X/index.html"
 
-oral presentations:
+oral_presentations:
   - title: "Extending Theoretical Trust Modeling: A Field Study of Heterogeneous Human-Machine Teams (HMT) Operating in R3 Contexts"
     event: "2025 Trust & Influence Program Review, Rome, New York"
   - title: "Performance Trust in High-Stakes Heterogeneous Human-Machine Team: Insights from Interviews with Team CoSTAR and Mars 2020"
     event: "IEEE RO-MAN 2025, Eindhoven, Netherlands"
 
-poster presentations:
+poster_presentations:
   - title: "Modeling Trust in Heterogeneous R3 Human-Machine Teams"
     event: "Human Factors and Ergonomics Society (HFES) Annual Conferene, Long Beach, California"
   - title: "A Comparative Analysis of Object Detection Models for Accurate Leaf Counting in Overlapping Foliage Conditions"
@@ -119,7 +119,7 @@ skills:
   - language: "Python, R, C++, Java, C, Racket, JavaScript, PROLOG"
     libraries: "PyTorch, Scikit-Learn, Pandas, Numpy, Seaborn, Matplotlib, snnTorch, TensorFlow, Pygame"
     others: "LaTeX, Git, Microsoft SQL Server, MySQL"
-    machine learning: "Regression, Clustering, Classification, Convolutional Neural Networks, Spiking Neural Networks, Time Series Analysis"
+    machine_learning: "Regression, Clustering, Classification, Convolutional Neural Networks, Spiking Neural Networks, Time Series Analysis"
 
 plugins:
   - jekyll-sitemap
