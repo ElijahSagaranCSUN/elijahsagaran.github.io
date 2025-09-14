@@ -9,8 +9,8 @@ Hello, I am Elijah! I am an undergraduate researcher at California State Univers
 ## Contact Me
 - **Personal Email:** {{ site.author["personal email"] }}
 - **University Email:** {{ site.author["university email"] }}
-- **GitHub:** {{ site.socials["GitHub"] }}
-- **LinkedIn:** {{ site.socials["LinkedIn"]}}
+- **GitHub:** <a href="{{ site.socials["GitHub"] }}"> GitHub Profile </a>
+- **LinkedIn:** <a href="{{ site.socials["LinkedIn"]}}"> LinkedIn Profile </a>
 
 ## Research Papers
 <ul class="papers">
